@@ -1,0 +1,34 @@
+h1, header {
+  margin-top: 0;
+}
+body{
+    background: linear-gradient(to bottom,#0842af 400px,white 200px);
+    margin: 0px;
+    padding: 0px;
+}
+.Web{
+    padding: 30px;
+    background-color: #001E55;
+    color:white;   
+}
+.te-ma{
+    color: rgb(247, 197, 15);
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+div#zentai {
+	display: grid;  
+}
+
+div#zentai > div {
+	padding: 5px;
+	background-color: pink;
+}
+p{
+    color: black;
+}
