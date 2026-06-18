@@ -1,14 +1,27 @@
 h1{
     color: rgb(255, 204, 0);
+    border-bottom-style: dotted;
+    border-color: rgb(140, 155, 249);
     text-shadow: 1px 1px 2px pink;
 }
 div#zentai {
 	display: grid;  
 }
 h2{
-    color: greenyellow;
+    color: rgb(128, 246, 101);
+
 }
 div#zentai > div {
 	padding: 5px;
 	background-color: pink;
+    background-clip: padding-box;
+
+    
+    border-width: 10px;
+    border-style: dotted;
+    border-color: rgb(150, 236, 247);
+    
 }
+
+
+

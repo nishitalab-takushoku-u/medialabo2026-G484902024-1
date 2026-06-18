@@ -2,7 +2,7 @@ h1, header {
   margin-top: 0;
 }
 body{
-    background: linear-gradient(to bottom,#0842af 400px,white 200px);
+    background: linear-gradient(to bottom,#0842af 410px,rgb(200, 81, 81) 100px);
     margin: 0px;
     padding: 0px;
 }
@@ -13,6 +13,11 @@ body{
 }
 .te-ma{
     color: rgb(247, 197, 15);
+    text-shadow: white 1px 0 3px;
+}
+.kaku{
+    color: rgb(247, 197, 15);
+    text-shadow: white 1px 0 3px;
 }
 h2{
     color: white;
@@ -26,7 +31,7 @@ div#zentai {
 }
 
 div#zentai > div {
-	padding: 5px;
+	padding: 10px;
 	background-color: pink;
 }
 p{

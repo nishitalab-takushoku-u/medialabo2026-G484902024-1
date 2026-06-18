@@ -1,15 +1,15 @@
 let heikin = 3.5;
-console.log(Heikin);        // 正しくは heikin
+console.log(heikin);        // 正しくは heikin
 
 // (2) 関数名のつづり間違い      → エラー発生
-let h = Math.froor(heikin); // 正しくは floor
+let h = Math.floor(heikin); // 正しくは floor
 
 // (3) 存在しない配列要素       → undefined　（エラーにならない）
 let ary = ['a', 'b', 'c'];
 console.log(ary[3]);        // 3番目の要素は存在しない
 
 // (4) 小数のインデックス       → undefined　（エラーにならない）
-let i = 3/2;
+let i=Math.floor(3/2) 
 console.log(ary[i]);        // i=3/2=1.5 なので ary[1.5] を参照しようとする
 
 // (5) メンバー名の間違い       → undefined （エラーにならない）
