@@ -6,7 +6,7 @@ let h = Math.floor(heikin); // 正しくは floor
 
 // (3) 存在しない配列要素       → undefined　（エラーにならない）
 let ary = ['a', 'b', 'c'];
-console.log(ary[3]);        // 3番目の要素は存在しない
+console.log(ary[2]);        // 3番目の要素は存在しない
 
 // (4) 小数のインデックス       → undefined　（エラーにならない）
 let i=Math.floor(3/2) 
