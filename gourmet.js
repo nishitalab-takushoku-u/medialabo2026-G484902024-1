@@ -1,27 +1,43 @@
 
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
-  console.log(data.results.shop[0].name);
+  let results = data.results.shop;
+    console.log(results.length+"件の検索結果が見つかりました。");
+    for(let s of results){
+      // console.log(s.length+"件の検索結果が見つかりました。");
+      console.log("店名:",s.name);
+      console.log("住所:",s.address);
+      console.log("予算:",s.budget.name );
+      console.log("ジャンル:",s.genre.name);
+      console.log("営業時間:",s.open);
+      console.log("最寄駅:",s.station_name);
+      console.log("アクセス:",s.access);
+      console.log("キャッチコピー:",s.catch);
+      console.log("サブジャンル:",s.sub_genre.name );
+    }
 
-  console.log(data.results.shop[0].address);
-  console.log(data.results.shop[0].budget.name );
-  console.log(data.results.shop[0].genre.name);
-  console.log(data.results.shop[0].open);
-  console.log(data.results.shop[0].station_name);
-  console.log(data.results.shop[0].access);
-  console.log(data.results.shop[0].catch);
-  console.log(data.results.shop[0].sub_genre.name );
   
-  console.log(data.results.shop[1].name);
+  // console.log(data.results.shop[0].name);
 
-  console.log(data.results.shop[1].address);
-  console.log(data.results.shop[1].budget.name );
-  console.log(data.results.shop[1].genre.name);
-  console.log(data.results.shop[1].open);
-  console.log(data.results.shop[1].station_name);
-  console.log(data.results.shop[1].access);
-  console.log(data.results.shop[1].catch);
-  console.log(data.results.shop[1].sub_genre.name );
+  // console.log(data.results.shop[0].address);
+  // console.log(data.results.shop[0].budget.name );
+  // console.log(data.results.shop[0].genre.name);
+  // console.log(data.results.shop[0].open);
+  // console.log(data.results.shop[0].station_name);
+  // console.log(data.results.shop[0].access);
+  // console.log(data.results.shop[0].catch);
+  // console.log(data.results.shop[0].sub_genre.name );
+  
+  // console.log(data.results.shop[1].name);
+
+  // console.log(data.results.shop[1].address);
+  // console.log(data.results.shop[1].budget.name );
+  // console.log(data.results.shop[1].genre.name);
+  // console.log(data.results.shop[1].open);
+  // console.log(data.results.shop[1].station_name);
+  // console.log(data.results.shop[1].access);
+  // console.log(data.results.shop[1].catch);
+  // console.log(data.results.shop[1].sub_genre.name );
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
