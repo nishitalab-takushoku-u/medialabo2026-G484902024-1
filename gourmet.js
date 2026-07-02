@@ -17,32 +17,15 @@ function print(data) {
     }
 
   
-  // console.log(data.results.shop[0].name);
-
-  // console.log(data.results.shop[0].address);
-  // console.log(data.results.shop[0].budget.name );
-  // console.log(data.results.shop[0].genre.name);
-  // console.log(data.results.shop[0].open);
-  // console.log(data.results.shop[0].station_name);
-  // console.log(data.results.shop[0].access);
-  // console.log(data.results.shop[0].catch);
-  // console.log(data.results.shop[0].sub_genre.name );
-  
-  // console.log(data.results.shop[1].name);
-
-  // console.log(data.results.shop[1].address);
-  // console.log(data.results.shop[1].budget.name );
-  // console.log(data.results.shop[1].genre.name);
-  // console.log(data.results.shop[1].open);
-  // console.log(data.results.shop[1].station_name);
-  // console.log(data.results.shop[1].access);
-  // console.log(data.results.shop[1].catch);
-  // console.log(data.results.shop[1].sub_genre.name );
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
-
+  let div = document.createElement('div'); 
+  let body = document.querySelector('body'); 
+  body.insertAdjacentElement('beforeend',div); 
+  let shop = data.results.shop; 
+  let s=shop[0]; 
 }
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
