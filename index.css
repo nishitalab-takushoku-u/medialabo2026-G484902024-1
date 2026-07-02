@@ -2,7 +2,7 @@ h1, header {
   margin-top: 0;
 }
 body{
-    background: linear-gradient(to bottom,#0842af 410px,rgb(200, 81, 81) 100px);
+    background: linear-gradient(to bottom,#0842af 575px,rgb(200, 81, 81) 100px);
     margin: 0px;
     padding: 0px;
 }
@@ -15,12 +15,17 @@ body{
     color: rgb(247, 197, 15);
     text-shadow: white 1px 0 3px;
 }
+div#ue{
+    p{
+        color: white;
+    }
+}
 .kaku{
     color: rgb(247, 197, 15);
     text-shadow: white 1px 0 3px;
 }
 h2{
-    color: white;
+    color: orange;
 }
 h3{
     color: white;
