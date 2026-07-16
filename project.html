@@ -3,9 +3,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    
     <title>project.html</title>
      <link rel="stylesheet" href="project.css">
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
      <script src="gourmet.js" defer></script>
+     
   </head>
   <body>
     <h1>グルメ情報</h1>
@@ -14,11 +18,11 @@
         <span id="answer"></span>
       </p>
       <p>
-         <label for="kazu">検索キー：</label>
+         <label for="gurume">検索キー：</label>
          <input type="text" name="gurume" size="10" id="gurume">
          <button id="btn">検索</button>
         </p>
-    <p id="result">  
+    <!-- <p id="result">  
     <p>2件の検索結果が見つかりました。</p></p> 
     <h2>検索結果１件目</h2>
     <h3>バグダットカフェ (bagdadcafe) / モータウン（MOTOWN）</h3>
@@ -59,7 +63,7 @@
         <dl>キャッチコピー :2.5時間飲み放題付2000円〜【⭐️少人数ソファー⭐️】
         <dl>サブジャンル : ダイニングバー,バル</dl>
       </div> 
-    </div>
-
+    </div> -->
+    <div id="result"></div>
   </body>
 </html>
