@@ -2,11 +2,12 @@ h1, header {
   margin-top: 0;
 }
 body{
-    background: linear-gradient(to bottom,#0842af 585px,rgb(200, 81, 81) 0px);
     margin: 0px;
     padding: 0px;
+    background: #ffffff;
 }
 .Web{
+    margin: 0;
     padding: 30px;
     background-color: #001E55;
     color:white;   
@@ -14,6 +15,10 @@ body{
 .te-ma{
     color: rgb(247, 197, 15);
     text-shadow: white 1px 0 3px;
+}
+div#ue {
+    background-color: #0842af;
+    padding: 20px;
 }
 div#ue p {
     color: white;
@@ -28,19 +33,26 @@ div#ue a:visited {
 div#ue a:hover {
     color: white;
 }
+
+#gakushu {
+    background-color: rgb(200,81,81);
+}
 .kaku{
+    margin-top: 0;
     color: rgb(247, 197, 15);
     text-shadow: white 1px 0 3px;
+    
 }
 h2{
     color: orange;
 }
 
 div#zentai {
-    h3{
-    color: white;
+    display: grid;
 }
-	display: grid;  
+
+div#zentai h3 {
+    color: white;
 }
 
 div#zentai > div {
