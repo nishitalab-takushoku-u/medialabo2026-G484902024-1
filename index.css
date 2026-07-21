@@ -2,7 +2,7 @@ h1, header {
   margin-top: 0;
 }
 body{
-    background: linear-gradient(to bottom,#0842af 575px,rgb(200, 81, 81) 100px);
+    background: linear-gradient(to bottom,#0842af 585px,rgb(200, 81, 81) 0px);
     margin: 0px;
     padding: 0px;
 }
@@ -15,10 +15,18 @@ body{
     color: rgb(247, 197, 15);
     text-shadow: white 1px 0 3px;
 }
-div#ue{
-    p{
-        color: white;
-    }
+div#ue p {
+    color: white;
+}
+div#ue a:link {
+    color: #ffff66;
+}
+div#ue a:visited {
+    color: #ffcc66;
+}
+
+div#ue a:hover {
+    color: white;
 }
 .kaku{
     color: rgb(247, 197, 15);
@@ -27,11 +35,11 @@ div#ue{
 h2{
     color: orange;
 }
-h3{
-    color: white;
-}
 
 div#zentai {
+    h3{
+    color: white;
+}
 	display: grid;  
 }
 
@@ -41,4 +49,25 @@ div#zentai > div {
 }
 p{
     color: black;
+}
+
+.matome{
+    background-color: #026e09;
+    color:rgb(247, 197, 15);
+    text-shadow: white 1px 0 3px;
+}
+div#point {
+    color: rgb(85, 73, 222);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+div#point > div {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 4px dotted #0ceec5;
+    box-sizing: border-box;
 }
